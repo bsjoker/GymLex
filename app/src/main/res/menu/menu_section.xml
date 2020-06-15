@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_all_vizitors"
+        android:title="All visitors"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_fitnes"
+        android:title="Fitnes"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_gym"
+        android:title="Gym"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_yoga"
+        android:title="Yoga"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Gym Visitors</string>
+    <string name="new_visitor">Новый посетитель</string>
+    <string name="choose_section">Выбор по секциям</string>
+    <string name="choose_active">Все действующие</string>
+</resources>
