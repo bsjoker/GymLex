@@ -1,10 +1,9 @@
-package ru.heathalphaapp.jdls.viewmodels
+package ru.bakaystas.dot.viewmodels
 
 import android.util.Log
 import androidx.lifecycle.*
-import ru.heathalphaapp.jdls.database.AppDatabase
-import ru.heathalphaapp.jdls.database.VisitorRepo
-import ru.heathalphaapp.jdls.models.VisitorModel
+import ru.bakaystas.dot.database.VisitorRepo
+import ru.bakaystas.dot.models.VisitorModel
 
 class VisitorViewModel internal constructor(
     repository: VisitorRepo

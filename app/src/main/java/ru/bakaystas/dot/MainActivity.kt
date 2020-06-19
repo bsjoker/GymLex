@@ -1,16 +1,14 @@
-package ru.heathalphaapp.jdls
+package ru.bakaystas.dot
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.activity.viewModels
 import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import kotlinx.android.synthetic.main.activity_main.*
-import ru.heathalphaapp.jdls.database.AppDatabase
-import ru.heathalphaapp.jdls.models.VisitorModel
-import ru.heathalphaapp.jdls.viewmodels.VisitorViewModel
-import ru.heathalphaapp.jdls.viewmodels.VisitorViewModelFactory
+import ru.bakaystas.dot.database.AppDatabase
+import ru.bakaystas.dot.models.VisitorModel
+import ru.bakaystas.dot.viewmodels.VisitorViewModel
 
 class MainActivity : AppCompatActivity() {
 

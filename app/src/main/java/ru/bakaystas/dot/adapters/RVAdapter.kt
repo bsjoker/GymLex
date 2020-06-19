@@ -1,12 +1,12 @@
-package ru.heathalphaapp.jdls.adapters
+package ru.bakaystas.dot.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.recycler_item.view.*
-import ru.heathalphaapp.jdls.R
-import ru.heathalphaapp.jdls.models.VisitorModel
+import ru.bakaystas.dot.R
+import ru.bakaystas.dot.models.VisitorModel
 
 class RVAdapter(val visitors: ArrayList<VisitorModel>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =

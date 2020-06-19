@@ -1,4 +1,4 @@
-package ru.heathalphaapp.jdls
+package ru.bakaystas.dot
 
 import android.app.Application
 

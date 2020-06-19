@@ -1,4 +1,4 @@
-package ru.heathalphaapp.jdls
+package ru.bakaystas.dot
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_section.*
-import ru.heathalphaapp.jdls.adapters.RVAdapter
-import ru.heathalphaapp.jdls.models.VisitorModel
-import ru.heathalphaapp.jdls.viewmodels.VisitorViewModel
+import ru.bakaystas.dot.adapters.RVAdapter
+import ru.bakaystas.dot.models.VisitorModel
+import ru.bakaystas.dot.viewmodels.VisitorViewModel
 
 class ActiveActivity : AppCompatActivity() {
     private var listVisitors: ArrayList<VisitorModel> = ArrayList()

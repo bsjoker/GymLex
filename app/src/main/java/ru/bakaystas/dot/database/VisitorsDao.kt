@@ -1,12 +1,11 @@
-package ru.heathalphaapp.jdls.database
+package ru.bakaystas.dot.database
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import ru.heathalphaapp.jdls.models.VisitorModel
+import ru.bakaystas.dot.models.VisitorModel
 
 @Dao
 interface VisitorsDao {

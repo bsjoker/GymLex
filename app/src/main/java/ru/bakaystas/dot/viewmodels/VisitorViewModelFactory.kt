@@ -1,12 +1,8 @@
-package ru.heathalphaapp.jdls.viewmodels
+package ru.bakaystas.dot.viewmodels
 
-import android.os.Bundle
-import androidx.lifecycle.AbstractSavedStateViewModelFactory
-import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.savedstate.SavedStateRegistryOwner
-import ru.heathalphaapp.jdls.database.VisitorRepo
+import ru.bakaystas.dot.database.VisitorRepo
 
 class VisitorViewModelFactory (
     private val repository: VisitorRepo

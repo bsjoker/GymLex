@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ChooseActivity">
+        <activity android:name="ru.bakaystas.dot.ChooseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,13 +18,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NewVisitorActivity"
+        <activity android:name="ru.bakaystas.dot.NewVisitorActivity"
             android:theme="@style/AddTheme">
         </activity>
 
-        <activity android:name=".SectionActivity"/>
+        <activity android:name="ru.bakaystas.dot.SectionActivity"/>
 
-        <activity android:name=".ActiveActivity"/>
+        <activity android:name="ru.bakaystas.dot.ActiveActivity"/>
     </application>
 
 </manifest>

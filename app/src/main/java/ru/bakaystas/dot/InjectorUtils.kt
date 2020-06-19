@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package ru.heathalphaapp.jdls
+package ru.bakaystas.dot
 
 import android.app.Activity
 import android.content.Context
 
-import ru.heathalphaapp.jdls.database.AppDatabase
-import ru.heathalphaapp.jdls.database.VisitorRepo
-import ru.heathalphaapp.jdls.viewmodels.VisitorViewModelFactory
+import ru.bakaystas.dot.database.AppDatabase
+import ru.bakaystas.dot.database.VisitorRepo
+import ru.bakaystas.dot.viewmodels.VisitorViewModelFactory
 
 /**
  * Static methods used to inject classes needed for various Activities and Fragments.

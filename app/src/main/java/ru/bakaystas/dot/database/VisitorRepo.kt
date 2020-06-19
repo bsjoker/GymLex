@@ -1,9 +1,7 @@
-package ru.heathalphaapp.jdls.database
+package ru.bakaystas.dot.database
 
-import android.util.Log
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import ru.heathalphaapp.jdls.models.VisitorModel
+import ru.bakaystas.dot.models.VisitorModel
 
 class VisitorRepo(private val visitorsDao: VisitorsDao) {
     fun getAllVisitors(): LiveData<List<VisitorModel>>{

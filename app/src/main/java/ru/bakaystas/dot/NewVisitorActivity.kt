@@ -1,4 +1,4 @@
-package ru.heathalphaapp.jdls
+package ru.bakaystas.dot
 
 import android.os.Bundle
 import android.view.View
@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_new_visitor.*
-import ru.heathalphaapp.jdls.database.AppDatabase
-import ru.heathalphaapp.jdls.models.VisitorModel
+import ru.bakaystas.dot.database.AppDatabase
+import ru.bakaystas.dot.models.VisitorModel
 
 
 class NewVisitorActivity : AppCompatActivity() {

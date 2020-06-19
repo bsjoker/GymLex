@@ -1,6 +1,5 @@
-package ru.heathalphaapp.jdls.models
+package ru.bakaystas.dot.models
 
-import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
