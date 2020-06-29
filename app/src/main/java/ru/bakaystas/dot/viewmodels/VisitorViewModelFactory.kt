@@ -11,5 +11,6 @@ class VisitorViewModelFactory (
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         return VisitorViewModel(repository) as T
+
     }
 }
